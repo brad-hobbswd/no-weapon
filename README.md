@@ -2,6 +2,10 @@
 ## The Story Behind the Song That Still Carries the Church
 **By Bradley Hobbs**
 ---
+## Live Website
+**Read the manuscript online:**
+https://brad-hobbswd.github.io/no-weapon/
+---
 ## About
 **NO WEAPON** is an independent work of Christian literature that explores the enduring ministry, cultural influence, and spiritual legacy inspired by one of gospel music's most recognizable declarations of faith.
 Rather than serving as a biography or official history, this manuscript is a literary reflection on worship, Scripture, testimony, and the remarkable journey of a song that continues to strengthen believers across generations.
@@ -23,7 +27,7 @@ The project presents an immersive reading experience designed to feel like a dig
 - Privacy Policy
 ---
 ## Website
-The site is built with lightweight, responsive technologies.
+Built with modern web standards for a clean and responsive reading experience.
 - HTML5
 - CSS3
 - Vanilla JavaScript
@@ -31,8 +35,7 @@ The site is built with lightweight, responsive technologies.
 - GitHub Pages
 ---
 ## Design Philosophy
-The visual design embraces a literary aesthetic inspired by printed manuscripts.
-Features include:
+The website embraces the feel of a printed literary manuscript through:
 - Elegant typography
 - Dark charcoal and gold color palette
 - Responsive layouts
@@ -43,15 +46,15 @@ Features include:
 ## Independent Literary Tribute
 This publication is an independent work of Christian literature, commentary, appreciation, and historical reflection inspired by the enduring ministry and cultural influence of Fred Hammond's *"No Weapon."*
 It is **not sponsored by, endorsed by, authorized by, or affiliated with Fred Hammond, his management, music publisher, record label, or any associated organization.**
-References to artist names, song titles, and publicly recognized works are included solely for purposes of literary discussion, scholarship, criticism, education, and appreciation.
+References to artist names, song titles, and publicly recognized works are included solely for literary discussion, scholarship, criticism, education, and appreciation.
 ---
 ## Copyright
 Copyright © 2026 Bradley Hobbs.
 All original literary content, manuscript text, commentary, essays, website design, and page layout are protected under applicable copyright law.
 ---
 ## Support the Author
-If this manuscript has encouraged or inspired you and you would like to support future Christian literary projects, you may do so through the links available on the website.
-Your encouragement and support help make future books and ministry resources possible.
+If this manuscript has encouraged or inspired you and you would like to support future Christian literary projects, support options are available on the live website.
+Your encouragement helps make future books and ministry resources possible.
 ---
 ## Author
 **Bradley Hobbs**
