@@ -923,3 +923,209 @@ The Story Behind the Song That Still Carries the Church
     font-size:.92rem;
   }
 }
+
+
+/* =========================================================
+   CONTENTS PAGE — MATCHING NO WEAPON HOMEPAGE
+========================================================= */
+.contents-page .contents-hero{
+  padding-top:clamp(1.25rem,3vw,2.5rem);
+  padding-bottom:3.5rem;
+}
+.contents-page .contents-heading{
+  width:min(900px,100%);
+  margin:2.5rem auto 0;
+  text-align:center;
+}
+.contents-page .contents-heading h1{
+  margin:.35rem 0 .5rem;
+  color:#f8f4ed;
+  font-size:clamp(2.4rem,6vw,4.6rem);
+  line-height:1.15;
+  letter-spacing:.025em;
+}
+.contents-page .contents-heading .hero-subtitle{
+  margin:.5rem auto .35rem;
+  color:#e7cc92;
+  font-size:clamp(1.25rem,3vw,1.8rem);
+}
+.contents-page .contents-heading .hero-byline{
+  color:#d0c9bd;
+  margin:.25rem auto;
+}
+.contents-page .contents-author{
+  margin:.7rem auto 0;
+  color:#bdbdbd;
+  text-align:center;
+  font-size:1rem;
+}
+.contents-page .contents-author strong{color:#e7cc92}
+.contents-page .contents-main{
+  width:min(1000px,90%);
+  margin:0 auto;
+  padding:4rem 0 3rem;
+}
+.contents-page .contents-intro{
+  max-width:780px;
+  margin:0 auto 2.5rem;
+  text-align:center;
+}
+.contents-page .contents-intro h2,
+.contents-page .contents-additional h2{
+  color:#e7cc92;
+  text-align:center;
+  font-size:clamp(1.8rem,4vw,2.7rem);
+}
+.contents-page .contents-intro p:last-child{
+  max-width:70ch;
+  margin:0 auto;
+  color:#d0c9bd;
+  text-align:center;
+}
+.contents-page .contents-chapters{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:1rem;
+}
+.contents-page .contents-card{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  min-height:150px;
+  padding:1.5rem 1.6rem;
+  color:#f8f4ed;
+  text-decoration:none;
+  background:linear-gradient(145deg,#171717,#101010);
+  border:1px solid rgba(213,178,107,.24);
+  border-left:3px solid #8d6b2f;
+  box-shadow:0 12px 28px rgba(0,0,0,.18);
+  transition:transform .2s ease,border-color .2s ease,background .2s ease;
+}
+.contents-page .contents-card:hover{
+  color:#f8f4ed;
+  transform:translateY(-3px);
+  border-color:#d5b26b;
+  border-left-color:#e7cc92;
+  background:linear-gradient(145deg,#202020,#141414);
+}
+.contents-page .contents-card-featured,
+.contents-page .contents-card-ending{
+  background:linear-gradient(135deg,#211b10,#141414 70%);
+  border-left-color:#d5b26b;
+}
+.contents-page .contents-number{
+  margin-bottom:.45rem;
+  color:#d5b26b;
+  font-family:Arial,sans-serif;
+  font-size:.7rem;
+  font-weight:700;
+  letter-spacing:.2em;
+}
+.contents-page .contents-title{
+  color:#f8f4ed;
+  font-family:"Cinzel",Georgia,serif;
+  font-size:clamp(1.05rem,2vw,1.35rem);
+  line-height:1.4;
+}
+.contents-page .contents-action{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin-top:.85rem;
+  color:#bdbdbd;
+  font-family:Arial,sans-serif;
+  font-size:.76rem;
+  letter-spacing:.06em;
+}
+.contents-page .contents-action span{
+  color:#e7cc92;
+  font-size:1.1rem;
+}
+.contents-page .contents-additional{
+  margin:3.5rem 0 2.5rem;
+  padding:2.3rem;
+  background:#141414;
+  border:1px solid rgba(213,178,107,.22);
+  border-top:3px solid #d5b26b;
+}
+.contents-page .contents-additional h2{
+  margin-bottom:1.5rem;
+}
+.contents-page .contents-utility-links{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:.75rem;
+}
+.contents-page .contents-utility-links a{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:1rem;
+  padding:.9rem 1rem;
+  color:#e7cc92;
+  background:#1c1c1c;
+  border:1px solid rgba(213,178,107,.15);
+  font-size:.95rem;
+  transition:background .2s ease,border-color .2s ease;
+}
+.contents-page .contents-utility-links a:hover{
+  color:#fff;
+  background:#242424;
+  border-color:#d5b26b;
+}
+.contents-page .contents-utility-links a span{color:#d5b26b}
+.contents-page .contents-quote{
+  max-width:780px;
+  margin:3rem auto;
+  text-align:center;
+}
+.contents-page .contents-disclaimer{
+  max-width:850px;
+  margin:2.5rem auto 0;
+  padding-top:1.5rem;
+  border-top:1px solid rgba(213,178,107,.15);
+  color:#bdbdbd;
+  font-size:.9rem;
+  line-height:1.75;
+}
+.contents-page .contents-bottom-nav{
+  margin-top:2.5rem;
+}
+@media(max-width:700px){
+  .contents-page .contents-main{
+    width:90%;
+    padding:3rem 0 2rem;
+  }
+  .contents-page .contents-chapters{
+    grid-template-columns:1fr;
+    gap:.8rem;
+  }
+  .contents-page .contents-card{
+    min-height:125px;
+    padding:1.25rem;
+  }
+  .contents-page .contents-additional{
+    padding:1.5rem 1rem;
+  }
+}
+@media(max-width:520px){
+  .contents-page .contents-hero{
+    padding-top:1rem;
+    padding-bottom:2.5rem;
+  }
+  .contents-page .contents-heading{
+    margin-top:1.8rem;
+  }
+  .contents-page .contents-heading h1{
+    font-size:2.15rem;
+  }
+  .contents-page .contents-utility-links{
+    grid-template-columns:1fr;
+  }
+  .contents-page .contents-bottom-nav{
+    flex-direction:column;
+  }
+  .contents-page .contents-bottom-nav .button{
+    width:100%;
+  }
+}
