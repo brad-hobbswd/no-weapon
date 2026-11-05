@@ -713,3 +713,74 @@ The Story Behind the Song That Still Carries the Church
   .home-page .banner-navigation a:nth-child(-n+2){border-bottom:1px solid rgba(213,178,107,.22)}
   .home-page .hero-title{margin-top:2rem}
 }
+
+
+/* Homepage spacing and hero typography refinements */
+.home-page .hero-stage{
+  padding-top:clamp(1.25rem,3vw,2.5rem);
+}
+.home-page .hero-inner{
+  width:min(1120px,100%);
+}
+.home-page .hero-title{
+  width:100%;
+  max-width:900px;
+  margin:2.2rem auto 1.2rem;
+  text-align:center;
+}
+.home-page .hero-overline,
+.home-page .hero-subtitle,
+.home-page .hero-byline,
+.home-page .hero-scripture,
+.home-page .hero-reference{
+  display:block;
+  width:100%;
+  max-width:none;
+  margin-left:auto;
+  margin-right:auto;
+  text-align:center;
+}
+.home-page .hero-overline{
+  margin-bottom:.65rem;
+  line-height:1.5;
+}
+.home-page .hero-title h1{
+  width:100%;
+  text-align:center;
+  line-height:1.12;
+}
+.home-page .hero-subtitle{
+  margin-top:.65rem;
+  margin-bottom:.8rem;
+  line-height:1.45;
+}
+.home-page .hero-byline{
+  margin-top:0;
+  line-height:1.5;
+}
+.home-page .hero-scripture{
+  margin-top:1.6rem;
+  margin-bottom:.45rem;
+  line-height:1.5;
+}
+.home-page .hero-reference{
+  margin:0 auto;
+  line-height:1.5;
+}
+@media(max-width:600px){
+  .home-page .hero-stage{
+    padding-top:1rem;
+    padding-bottom:2.5rem;
+  }
+  .home-page .hero-title{
+    margin-top:1.7rem;
+    margin-bottom:1rem;
+  }
+  .home-page .hero-overline{
+    font-size:.62rem;
+    letter-spacing:.15em;
+  }
+  .home-page .hero-scripture{
+    margin-top:1.3rem;
+  }
+}
