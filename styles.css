@@ -663,3 +663,53 @@ The Story Behind the Song That Still Carries the Church
   .home-page .chapter-navigation{flex-direction:column}
   .home-page .chapter-navigation .button{width:100%}
 }
+
+/* Banner navigation: attached directly beneath the artwork */
+.home-page .banner-frame{
+  margin-bottom:0;
+}
+.home-page .banner-navigation{
+  display:flex;
+  align-items:stretch;
+  justify-content:center;
+  flex-wrap:wrap;
+  width:min(900px,100%);
+  margin:0 auto;
+  background:#0b1622;
+  border:1px solid rgba(216,189,131,.55);
+  border-top:1px solid rgba(255,255,255,.12);
+  box-shadow:0 16px 35px rgba(0,0,0,.28);
+}
+.home-page .banner-navigation a{
+  flex:1 1 auto;
+  min-width:130px;
+  padding:1rem 1.1rem;
+  color:#e8dcc4;
+  font-family:Arial,sans-serif;
+  font-size:.76rem;
+  font-weight:700;
+  letter-spacing:.12em;
+  text-align:center;
+  text-transform:uppercase;
+  border-right:1px solid rgba(216,189,131,.22);
+  transition:background .2s ease,color .2s ease;
+}
+.home-page .banner-navigation a:last-child{border-right:0}
+.home-page .banner-navigation a:hover,
+.home-page .banner-navigation a[aria-current="page"]{
+  color:#172331;
+  background:linear-gradient(135deg,#ead6a9,#b58b45);
+}
+.home-page .hero-title{margin-top:2.6rem}
+@media(max-width:600px){
+  .home-page .banner-navigation a{
+    flex:1 1 50%;
+    min-width:0;
+    padding:.9rem .45rem;
+    font-size:.66rem;
+    letter-spacing:.08em;
+  }
+  .home-page .banner-navigation a:nth-child(2){border-right:0}
+  .home-page .banner-navigation a:nth-child(-n+2){border-bottom:1px solid rgba(216,189,131,.22)}
+  .home-page .hero-title{margin-top:2rem}
+}
