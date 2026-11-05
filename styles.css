@@ -1129,3 +1129,17 @@ The Story Behind the Song That Still Carries the Church
     width:100%;
   }
 }
+
+
+/* Contents page: tighten the transition from the title panel to the introduction */
+.contents-page .contents-hero{
+  padding-bottom:1.5rem;
+}
+.contents-page .contents-main{
+  padding-top:2rem;
+}
+@media(max-width:700px){
+  .contents-page .contents-main{
+    padding-top:1.75rem;
+  }
+}
