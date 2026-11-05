@@ -402,18 +402,18 @@ The Story Behind the Song That Still Carries the Church
    Landing-page hero redesign
 ========================================================= */
 .home-page{
-  --background:#f3efe6;
-  --surface:#fffdf8;
-  --surface-light:#e9e1d3;
-  --text:#202a35;
-  --muted:#66717c;
-  --accent:#b58b45;
-  --accent-light:#d8bd83;
-  --accent-dark:#745526;
-  --border:rgba(125,94,44,.20);
-  --shadow:0 22px 55px rgba(10,20,31,.16);
-  background:#f3efe6;
-  color:#26313d;
+  --background:#090909;
+  --surface:#141414;
+  --surface-light:#1c1c1c;
+  --text:#f8f4ed;
+  --muted:#bdbdbd;
+  --accent:#d5b26b;
+  --accent-light:#e7cc92;
+  --accent-dark:#8d6b2f;
+  --border:rgba(213,178,107,.15);
+  --shadow:0 15px 40px rgba(0,0,0,.30);
+  background:#090909;
+  color:#f8f4ed;
 }
 .home-page .hero-stage{
   position:relative;
@@ -423,8 +423,8 @@ The Story Behind the Song That Still Carries the Church
   color:#f8f4eb;
   text-align:center;
   background:
-    radial-gradient(ellipse at 50% 20%,rgba(62,83,105,.58),transparent 48%),
-    linear-gradient(145deg,#101d2a 0%,#172b3c 48%,#0b1622 100%);
+    radial-gradient(ellipse at 50% 20%,rgba(70,70,70,.35),transparent 48%),
+    linear-gradient(145deg,#090909 0%,#1c1c1c 48%,#090909 100%);
 }
 .home-page .hero-stage:before,
 .home-page .hero-stage:after{
@@ -435,7 +435,7 @@ The Story Behind the Song That Still Carries the Church
 }
 .home-page .hero-stage:before{
   inset:18px;
-  border:1px solid rgba(216,189,131,.28);
+  border:1px solid rgba(213,178,107,.28);
 }
 .home-page .hero-stage:after{
   width:520px;
@@ -443,7 +443,7 @@ The Story Behind the Song That Still Carries the Church
   left:50%;
   top:7%;
   transform:translateX(-50%);
-  border:1px solid rgba(216,189,131,.10);
+  border:1px solid rgba(213,178,107,.10);
   border-radius:50%;
   box-shadow:0 0 0 35px rgba(216,189,131,.025),0 0 0 75px rgba(216,189,131,.02);
 }
@@ -454,7 +454,7 @@ The Story Behind the Song That Still Carries the Church
   left:50%;
   top:0;
   transform:translateX(-50%);
-  background:rgba(202,165,99,.10);
+  background:rgba(213,178,107,.10);
   filter:blur(85px);
   z-index:-1;
 }
@@ -466,7 +466,7 @@ The Story Behind the Song That Still Carries the Church
 .home-page .hero-kicker,
 .home-page .hero-overline,
 .home-page .hero-reference{
-  color:#d8bd83;
+  color:#e7cc92;
   text-transform:uppercase;
   letter-spacing:.24em;
   font-family:Arial,sans-serif;
@@ -485,19 +485,19 @@ The Story Behind the Song That Still Carries the Church
   content:"";
   width:clamp(35px,10vw,105px);
   height:1px;
-  background:linear-gradient(90deg,transparent,#c7a566);
+  background:linear-gradient(90deg,transparent,#d5b26b);
 }
 .home-page .hero-rule:after{transform:scaleX(-1)}
 .home-page .hero-rule span{
   width:7px;height:7px;
-  border:1px solid #d8bd83;
+  border:1px solid #e7cc92;
   transform:rotate(45deg);
 }
 .home-page .banner-frame{
   width:min(900px,100%);
   margin:0 auto;
   padding:clamp(8px,1.4vw,16px);
-  background:linear-gradient(135deg,#f0dfb8,#9a7136 48%,#e8d3a4);
+  background:linear-gradient(135deg,#e7cc92,#8d6b2f 48%,#e7cc92);
   box-shadow:0 28px 65px rgba(0,0,0,.42),0 0 0 1px rgba(255,255,255,.14);
 }
 .home-page .hero-banner{
@@ -507,14 +507,14 @@ The Story Behind the Song That Still Carries the Church
   object-position:center;
   margin:0 auto;
   border-radius:0;
-  background:#101b27;
+  background:#090909;
   box-shadow:none;
 }
 .home-page .hero-title{margin:2.5rem auto 1.4rem}
 .home-page .hero-overline{margin-bottom:.8rem}
 .home-page .hero-title h1{
   margin:0;
-  color:#fffaf0;
+  color:#f8f4ed;
   font-size:clamp(3rem,8vw,6.6rem);
   letter-spacing:.08em;
   text-shadow:0 5px 24px rgba(0,0,0,.35);
@@ -522,17 +522,17 @@ The Story Behind the Song That Still Carries the Church
 .home-page .hero-subtitle{
   max-width:720px;
   margin:.6rem auto 1rem;
-  color:#e6dcc8;
+  color:#e7cc92;
   font-family:"Cinzel",Georgia,serif;
   font-size:clamp(1.05rem,2.4vw,1.55rem);
   line-height:1.5;
 }
 .home-page .hero-byline{
   margin:0 auto;
-  color:#c9cbd0;
+  color:#bdbdbd;
   font-size:1rem;
 }
-.home-page .hero-byline strong{color:#e2c58b}
+.home-page .hero-byline strong{color:#e7cc92}
 .home-page .hero-cta{
   display:inline-flex;
   align-items:center;
@@ -540,9 +540,9 @@ The Story Behind the Song That Still Carries the Church
   gap:1.1rem;
   margin:1.5rem auto 2.2rem;
   padding:1rem 2rem;
-  color:#172331;
-  background:linear-gradient(135deg,#ead6a9,#b58b45);
-  border:1px solid #f0dfb8;
+  color:#090909;
+  background:linear-gradient(135deg,#d5b26b,#d5b26b);
+  border:1px solid #e7cc92;
   font-family:Arial,sans-serif;
   font-size:.78rem;
   font-weight:800;
@@ -552,14 +552,14 @@ The Story Behind the Song That Still Carries the Church
   transition:transform .25s ease,box-shadow .25s ease;
 }
 .home-page .hero-cta:hover{
-  color:#172331;
+  color:#090909;
   transform:translateY(-3px);
   box-shadow:0 17px 34px rgba(0,0,0,.32);
 }
 .home-page .hero-cta span{font-size:1.2rem}
 .home-page .hero-scripture{
   margin:0 auto .35rem;
-  color:#f4ecdd;
+  color:#f8f4ed;
   font-family:"Cinzel",Georgia,serif;
   font-size:clamp(1rem,2vw,1.3rem);
   font-style:italic;
@@ -573,16 +573,16 @@ The Story Behind the Song That Still Carries the Church
 .home-page .section-intro{text-align:center;margin-bottom:2.3rem}
 .home-page .section-intro h2,
 .home-page .work-card h2{
-  color:#26394b;
+  color:#e7cc92;
   text-align:center;
 }
-.home-page .home-content p{color:#46515c}
-.home-page .home-content .chapter-label{color:#98743a}
+.home-page .home-content p{color:#d0c9bd}
+.home-page .home-content .chapter-label{color:#d5b26b}
 .home-page .work-card{
   padding:clamp(1.5rem,4vw,3rem);
-  background:#fffdf8;
-  border:1px solid rgba(151,116,58,.28);
-  border-top:4px solid #b58b45;
+  background:#141414;
+  border:1px solid rgba(213,178,107,.25);
+  border-top:4px solid #d5b26b;
   border-radius:4px;
   box-shadow:0 18px 45px rgba(36,43,49,.09);
 }
@@ -595,10 +595,10 @@ The Story Behind the Song That Still Carries the Church
 }
 .home-page .work-list span{
   padding:.9rem 1rem;
-  color:#344455;
+  color:#f8f4ed;
   text-align:center;
-  background:#f1ece2;
-  border:1px solid rgba(151,116,58,.16);
+  background:#1c1c1c;
+  border:1px solid rgba(213,178,107,.16);
   font-family:Arial,sans-serif;
   font-size:.9rem;
 }
@@ -606,29 +606,29 @@ The Story Behind the Song That Still Carries the Church
 .home-page .chapter-navigation .button{
   min-width:190px;
   border-radius:2px;
-  background:#1a2b3b;
-  color:#f7f0e2;
+  background:#1c1c1c;
+  color:#f8f4ed;
   box-shadow:none;
 }
 .home-page .chapter-navigation .button:hover{
-  background:#30465a;
+  background:#303030;
   color:#fff;
 }
 .home-page .chapter-navigation .button-outline{
   background:transparent;
-  color:#26394b;
-  border:1px solid #9d7b45;
+  color:#e7cc92;
+  border:1px solid #d5b26b;
 }
 .home-page .chapter-navigation .button-outline:hover{
-  background:#efe6d6;
-  color:#26394b;
+  background:#1c1c1c;
+  color:#e7cc92;
 }
 .home-page blockquote{
   margin:3rem auto;
   padding:1rem 1.5rem;
   max-width:720px;
-  border-left:3px solid #b58b45;
-  color:#34485b;
+  border-left:3px solid #d5b26b;
+  color:#e7cc92;
   font-family:"Cinzel",Georgia,serif;
   font-size:clamp(1.15rem,2.5vw,1.55rem);
   line-height:1.7;
@@ -636,20 +636,20 @@ The Story Behind the Song That Still Carries the Church
 }
 .home-page .publication-note{
   padding-top:1.5rem;
-  border-top:1px solid rgba(125,94,44,.2);
-  color:#707983;
+  border-top:1px solid rgba(213,178,107,.15);
+  color:#bdbdbd;
   font-size:.88rem;
   line-height:1.8;
 }
 .home-page .site-footer{
-  background:#101d2a;
-  border-top:3px solid #b58b45;
+  background:#090909;
+  border-top:3px solid #d5b26b;
 }
 .home-page .site-footer,
 .home-page .site-footer p,
-.home-page .site-footer a{color:#e7e1d6}
+.home-page .site-footer a{color:#f8f4ed}
 .home-page .site-footer h3,
-.home-page .site-footer h4{color:#d8bd83}
+.home-page .site-footer h4{color:#e7cc92}
 @media(max-width:600px){
   .home-page .hero-stage{padding:3rem 1rem 3.2rem}
   .home-page .hero-stage:before{inset:10px}
@@ -675,7 +675,7 @@ The Story Behind the Song That Still Carries the Church
   flex-wrap:wrap;
   width:min(900px,100%);
   margin:0 auto;
-  background:#0b1622;
+  background:#090909;
   border:1px solid rgba(216,189,131,.55);
   border-top:1px solid rgba(255,255,255,.12);
   box-shadow:0 16px 35px rgba(0,0,0,.28);
@@ -697,8 +697,8 @@ The Story Behind the Song That Still Carries the Church
 .home-page .banner-navigation a:last-child{border-right:0}
 .home-page .banner-navigation a:hover,
 .home-page .banner-navigation a[aria-current="page"]{
-  color:#172331;
-  background:linear-gradient(135deg,#ead6a9,#b58b45);
+  color:#090909;
+  background:linear-gradient(135deg,#d5b26b,#d5b26b);
 }
 .home-page .hero-title{margin-top:2.6rem}
 @media(max-width:600px){
