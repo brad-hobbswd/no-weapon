@@ -395,3 +395,271 @@ NO WEAPON
 The Story Behind the Song That Still Carries the Church
 ================================================
 */
+
+
+/* =========================================================
+   NO WEAPON HOME PAGE — MIDNIGHT / IVORY / ANTIQUE GOLD
+   Landing-page hero redesign
+========================================================= */
+.home-page{
+  --background:#f3efe6;
+  --surface:#fffdf8;
+  --surface-light:#e9e1d3;
+  --text:#202a35;
+  --muted:#66717c;
+  --accent:#b58b45;
+  --accent-light:#d8bd83;
+  --accent-dark:#745526;
+  --border:rgba(125,94,44,.20);
+  --shadow:0 22px 55px rgba(10,20,31,.16);
+  background:#f3efe6;
+  color:#26313d;
+}
+.home-page .hero-stage{
+  position:relative;
+  isolation:isolate;
+  overflow:hidden;
+  padding:clamp(3.5rem,8vw,7rem) 1.25rem 4.5rem;
+  color:#f8f4eb;
+  text-align:center;
+  background:
+    radial-gradient(ellipse at 50% 20%,rgba(62,83,105,.58),transparent 48%),
+    linear-gradient(145deg,#101d2a 0%,#172b3c 48%,#0b1622 100%);
+}
+.home-page .hero-stage:before,
+.home-page .hero-stage:after{
+  content:"";
+  position:absolute;
+  z-index:-1;
+  pointer-events:none;
+}
+.home-page .hero-stage:before{
+  inset:18px;
+  border:1px solid rgba(216,189,131,.28);
+}
+.home-page .hero-stage:after{
+  width:520px;
+  height:520px;
+  left:50%;
+  top:7%;
+  transform:translateX(-50%);
+  border:1px solid rgba(216,189,131,.10);
+  border-radius:50%;
+  box-shadow:0 0 0 35px rgba(216,189,131,.025),0 0 0 75px rgba(216,189,131,.02);
+}
+.home-page .hero-glow{
+  position:absolute;
+  width:45rem;
+  height:22rem;
+  left:50%;
+  top:0;
+  transform:translateX(-50%);
+  background:rgba(202,165,99,.10);
+  filter:blur(85px);
+  z-index:-1;
+}
+.home-page .hero-inner{
+  position:relative;
+  width:min(1120px,100%);
+  margin:0 auto;
+}
+.home-page .hero-kicker,
+.home-page .hero-overline,
+.home-page .hero-reference{
+  color:#d8bd83;
+  text-transform:uppercase;
+  letter-spacing:.24em;
+  font-family:Arial,sans-serif;
+  font-size:.72rem;
+  font-weight:700;
+}
+.home-page .hero-rule{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:12px;
+  margin:1.2rem auto 2rem;
+}
+.home-page .hero-rule:before,
+.home-page .hero-rule:after{
+  content:"";
+  width:clamp(35px,10vw,105px);
+  height:1px;
+  background:linear-gradient(90deg,transparent,#c7a566);
+}
+.home-page .hero-rule:after{transform:scaleX(-1)}
+.home-page .hero-rule span{
+  width:7px;height:7px;
+  border:1px solid #d8bd83;
+  transform:rotate(45deg);
+}
+.home-page .banner-frame{
+  width:min(900px,100%);
+  margin:0 auto;
+  padding:clamp(8px,1.4vw,16px);
+  background:linear-gradient(135deg,#f0dfb8,#9a7136 48%,#e8d3a4);
+  box-shadow:0 28px 65px rgba(0,0,0,.42),0 0 0 1px rgba(255,255,255,.14);
+}
+.home-page .hero-banner{
+  width:100%;
+  max-height:clamp(230px,48vw,510px);
+  object-fit:contain;
+  object-position:center;
+  margin:0 auto;
+  border-radius:0;
+  background:#101b27;
+  box-shadow:none;
+}
+.home-page .hero-title{margin:2.5rem auto 1.4rem}
+.home-page .hero-overline{margin-bottom:.8rem}
+.home-page .hero-title h1{
+  margin:0;
+  color:#fffaf0;
+  font-size:clamp(3rem,8vw,6.6rem);
+  letter-spacing:.08em;
+  text-shadow:0 5px 24px rgba(0,0,0,.35);
+}
+.home-page .hero-subtitle{
+  max-width:720px;
+  margin:.6rem auto 1rem;
+  color:#e6dcc8;
+  font-family:"Cinzel",Georgia,serif;
+  font-size:clamp(1.05rem,2.4vw,1.55rem);
+  line-height:1.5;
+}
+.home-page .hero-byline{
+  margin:0 auto;
+  color:#c9cbd0;
+  font-size:1rem;
+}
+.home-page .hero-byline strong{color:#e2c58b}
+.home-page .hero-cta{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  gap:1.1rem;
+  margin:1.5rem auto 2.2rem;
+  padding:1rem 2rem;
+  color:#172331;
+  background:linear-gradient(135deg,#ead6a9,#b58b45);
+  border:1px solid #f0dfb8;
+  font-family:Arial,sans-serif;
+  font-size:.78rem;
+  font-weight:800;
+  letter-spacing:.14em;
+  text-transform:uppercase;
+  box-shadow:0 12px 28px rgba(0,0,0,.25);
+  transition:transform .25s ease,box-shadow .25s ease;
+}
+.home-page .hero-cta:hover{
+  color:#172331;
+  transform:translateY(-3px);
+  box-shadow:0 17px 34px rgba(0,0,0,.32);
+}
+.home-page .hero-cta span{font-size:1.2rem}
+.home-page .hero-scripture{
+  margin:0 auto .35rem;
+  color:#f4ecdd;
+  font-family:"Cinzel",Georgia,serif;
+  font-size:clamp(1rem,2vw,1.3rem);
+  font-style:italic;
+}
+.home-page .hero-reference{margin:0}
+.home-page .home-content{
+  width:min(900px,90%);
+  margin:0 auto;
+  padding:5rem 0 3rem;
+}
+.home-page .section-intro{text-align:center;margin-bottom:2.3rem}
+.home-page .section-intro h2,
+.home-page .work-card h2{
+  color:#26394b;
+  text-align:center;
+}
+.home-page .home-content p{color:#46515c}
+.home-page .home-content .chapter-label{color:#98743a}
+.home-page .work-card{
+  padding:clamp(1.5rem,4vw,3rem);
+  background:#fffdf8;
+  border:1px solid rgba(151,116,58,.28);
+  border-top:4px solid #b58b45;
+  border-radius:4px;
+  box-shadow:0 18px 45px rgba(36,43,49,.09);
+}
+.home-page .work-card p{text-align:center;margin-left:auto;margin-right:auto}
+.home-page .work-list{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:.8rem;
+  margin:2rem 0;
+}
+.home-page .work-list span{
+  padding:.9rem 1rem;
+  color:#344455;
+  text-align:center;
+  background:#f1ece2;
+  border:1px solid rgba(151,116,58,.16);
+  font-family:Arial,sans-serif;
+  font-size:.9rem;
+}
+.home-page .chapter-navigation{margin-top:1.5rem}
+.home-page .chapter-navigation .button{
+  min-width:190px;
+  border-radius:2px;
+  background:#1a2b3b;
+  color:#f7f0e2;
+  box-shadow:none;
+}
+.home-page .chapter-navigation .button:hover{
+  background:#30465a;
+  color:#fff;
+}
+.home-page .chapter-navigation .button-outline{
+  background:transparent;
+  color:#26394b;
+  border:1px solid #9d7b45;
+}
+.home-page .chapter-navigation .button-outline:hover{
+  background:#efe6d6;
+  color:#26394b;
+}
+.home-page blockquote{
+  margin:3rem auto;
+  padding:1rem 1.5rem;
+  max-width:720px;
+  border-left:3px solid #b58b45;
+  color:#34485b;
+  font-family:"Cinzel",Georgia,serif;
+  font-size:clamp(1.15rem,2.5vw,1.55rem);
+  line-height:1.7;
+  text-align:center;
+}
+.home-page .publication-note{
+  padding-top:1.5rem;
+  border-top:1px solid rgba(125,94,44,.2);
+  color:#707983;
+  font-size:.88rem;
+  line-height:1.8;
+}
+.home-page .site-footer{
+  background:#101d2a;
+  border-top:3px solid #b58b45;
+}
+.home-page .site-footer,
+.home-page .site-footer p,
+.home-page .site-footer a{color:#e7e1d6}
+.home-page .site-footer h3,
+.home-page .site-footer h4{color:#d8bd83}
+@media(max-width:600px){
+  .home-page .hero-stage{padding:3rem 1rem 3.2rem}
+  .home-page .hero-stage:before{inset:10px}
+  .home-page .hero-kicker{font-size:.62rem;letter-spacing:.16em}
+  .home-page .banner-frame{padding:7px}
+  .home-page .hero-title{margin:1.8rem auto 1rem}
+  .home-page .hero-title h1{letter-spacing:.045em}
+  .home-page .hero-cta{width:auto;min-width:210px}
+  .home-page .home-content{padding:3.5rem 0 2rem}
+  .home-page .work-list{grid-template-columns:1fr}
+  .home-page .chapter-navigation{flex-direction:column}
+  .home-page .chapter-navigation .button{width:100%}
+}
