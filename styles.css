@@ -445,7 +445,7 @@ The Story Behind the Song That Still Carries the Church
   transform:translateX(-50%);
   border:1px solid rgba(213,178,107,.10);
   border-radius:50%;
-  box-shadow:0 0 0 35px rgba(216,189,131,.025),0 0 0 75px rgba(216,189,131,.02);
+  box-shadow:0 0 0 35px rgba(213,178,107,.025),0 0 0 75px rgba(213,178,107,.02);
 }
 .home-page .hero-glow{
   position:absolute;
@@ -541,7 +541,7 @@ The Story Behind the Song That Still Carries the Church
   margin:1.5rem auto 2.2rem;
   padding:1rem 2rem;
   color:#090909;
-  background:linear-gradient(135deg,#d5b26b,#d5b26b);
+  background:linear-gradient(135deg,#e7cc92,#d5b26b);
   border:1px solid #e7cc92;
   font-family:Arial,sans-serif;
   font-size:.78rem;
@@ -676,29 +676,29 @@ The Story Behind the Song That Still Carries the Church
   width:min(900px,100%);
   margin:0 auto;
   background:#090909;
-  border:1px solid rgba(216,189,131,.55);
-  border-top:1px solid rgba(255,255,255,.12);
+  border:1px solid rgba(213,178,107,.55);
+  border-top:1px solid rgba(213,178,107,.12);
   box-shadow:0 16px 35px rgba(0,0,0,.28);
 }
 .home-page .banner-navigation a{
   flex:1 1 auto;
   min-width:130px;
   padding:1rem 1.1rem;
-  color:#e8dcc4;
+  color:#e7cc92;
   font-family:Arial,sans-serif;
   font-size:.76rem;
   font-weight:700;
   letter-spacing:.12em;
   text-align:center;
   text-transform:uppercase;
-  border-right:1px solid rgba(216,189,131,.22);
+  border-right:1px solid rgba(213,178,107,.22);
   transition:background .2s ease,color .2s ease;
 }
 .home-page .banner-navigation a:last-child{border-right:0}
 .home-page .banner-navigation a:hover,
 .home-page .banner-navigation a[aria-current="page"]{
   color:#090909;
-  background:linear-gradient(135deg,#d5b26b,#d5b26b);
+  background:linear-gradient(135deg,#e7cc92,#d5b26b);
 }
 .home-page .hero-title{margin-top:2.6rem}
 @media(max-width:600px){
@@ -710,6 +710,6 @@ The Story Behind the Song That Still Carries the Church
     letter-spacing:.08em;
   }
   .home-page .banner-navigation a:nth-child(2){border-right:0}
-  .home-page .banner-navigation a:nth-child(-n+2){border-bottom:1px solid rgba(216,189,131,.22)}
+  .home-page .banner-navigation a:nth-child(-n+2){border-bottom:1px solid rgba(213,178,107,.22)}
   .home-page .hero-title{margin-top:2rem}
 }
