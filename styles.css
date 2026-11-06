@@ -1714,3 +1714,243 @@ body.home-page blockquote cite{
     line-height:1.75;
   }
 }
+
+
+/* =========================================================
+   FULL SITE FOOTER — PUBLICATION-QUALITY NAVIGATION
+========================================================= */
+.home-page .site-footer{
+  position:relative;
+  margin-top:0;
+  padding:3.75rem clamp(1.25rem,4vw,3rem) 1.5rem;
+  background:
+    radial-gradient(ellipse at 50% 0%,rgba(213,178,107,.09),transparent 48%),
+    linear-gradient(180deg,#111 0%,#080808 100%);
+  border-top:3px solid #d5b26b;
+}
+.footer-shell{
+  width:min(1180px,100%);
+  margin:0 auto;
+}
+.footer-topline{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:1.1rem;
+  margin:0 auto 2.8rem;
+  color:#e7cc92;
+  font-family:Arial,sans-serif;
+  font-size:.68rem;
+  font-weight:700;
+  letter-spacing:.18em;
+  text-transform:uppercase;
+}
+.footer-topline-rule{
+  width:clamp(35px,12vw,140px);
+  height:1px;
+  background:linear-gradient(90deg,transparent,#d5b26b);
+}
+.footer-tagline{color:#bdbdbd;font-weight:500}
+.home-page .footer-grid{
+  display:grid;
+  grid-template-columns:minmax(230px,1.65fr) repeat(3,minmax(145px,1fr));
+  align-items:start;
+  gap:clamp(1.5rem,3vw,3rem);
+  margin:0;
+  padding:0 0 2.7rem;
+}
+.home-page .footer-column{
+  min-width:0;
+  text-align:left;
+}
+.home-page .footer-column h3{
+  margin:0 0 .75rem;
+  color:#e7cc92;
+  font-family:"Cinzel",Georgia,serif;
+  font-size:1.55rem;
+  letter-spacing:.1em;
+}
+.home-page .footer-column h4{
+  margin:0 0 1.15rem;
+  padding-bottom:.7rem;
+  color:#e7cc92;
+  border-bottom:1px solid rgba(213,178,107,.28);
+  font-family:"Cinzel",Georgia,serif;
+  font-size:1rem;
+  letter-spacing:.045em;
+}
+.home-page .footer-column .footer-book-subtitle{
+  margin:0 0 .8rem;
+  color:#f8f4ed;
+  font-family:"Cinzel",Georgia,serif;
+  font-size:.95rem;
+  line-height:1.65;
+}
+.home-page .footer-column .footer-author{
+  margin:0 0 1rem;
+  color:#bdbdbd;
+  font-size:.88rem;
+}
+.home-page .footer-author strong{color:#e7cc92}
+.home-page .footer-column .footer-description,
+.home-page .footer-column > p:not(.footer-book-subtitle):not(.footer-author){
+  margin:0 0 1rem;
+  color:#bdbdbd;
+  font-size:.9rem;
+  line-height:1.8;
+}
+.home-page .footer-column ul{
+  display:flex;
+  flex-direction:column;
+  gap:.7rem;
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+.home-page .footer-column li{margin:0;padding:0}
+.home-page .footer-column li a{
+  display:inline-block;
+  padding:0;
+  color:#d8d1c5;
+  font-family:Arial,sans-serif;
+  font-size:.86rem;
+  line-height:1.55;
+  text-decoration:none;
+  transition:color .2s ease,transform .2s ease;
+}
+.home-page .footer-column li a:hover,
+.home-page .footer-column li a:focus-visible{
+  padding:0;
+  color:#e7cc92;
+  transform:translateX(4px);
+  outline:none;
+}
+.home-page .footer-support .donate-buttons{
+  display:flex;
+  flex-direction:column;
+  align-items:stretch;
+  gap:.65rem;
+  margin:1rem 0 1.8rem;
+}
+.home-page .footer-support .donate-button{
+  display:block;
+  width:100%;
+  padding:.7rem .9rem;
+  color:#e7cc92;
+  text-align:center;
+  border:1px solid rgba(213,178,107,.4);
+  border-radius:2px;
+  background:rgba(213,178,107,.045);
+  font-family:Arial,sans-serif;
+  font-size:.78rem;
+  font-weight:700;
+  letter-spacing:.04em;
+}
+.home-page .footer-support .donate-button:hover{
+  color:#090909;
+  background:#d5b26b;
+  border-color:#e7cc92;
+}
+.home-page .footer-support .footer-legal-heading{
+  margin-top:.5rem;
+}
+.home-page .footer-disclaimer{
+  max-width:100%;
+  margin:0;
+  padding:1.5rem 0;
+  color:#aaa398;
+  border-top:1px solid rgba(213,178,107,.2);
+  font-size:.82rem;
+  line-height:1.8;
+  text-align:left;
+}
+.home-page .footer-disclaimer strong{
+  display:block;
+  margin-bottom:.45rem;
+  color:#e7cc92;
+  font-family:Arial,sans-serif;
+  font-size:.72rem;
+  letter-spacing:.12em;
+  text-transform:uppercase;
+}
+.home-page .footer-disclaimer p{
+  max-width:105ch;
+  margin:0;
+  color:#aaa398;
+  font-size:inherit;
+  line-height:inherit;
+}
+.home-page .footer-bottom{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:1.5rem;
+  max-width:100%;
+  margin:0;
+  padding:1.2rem 0 0;
+  border-top:1px solid rgba(213,178,107,.2);
+  text-align:left;
+}
+.home-page .footer-bottom .footer-copyright{
+  flex:0 0 auto;
+  margin:0;
+  color:#d5b26b;
+  font-family:Arial,sans-serif;
+  font-size:.78rem;
+}
+.home-page .footer-bottom .footer-closing{
+  max-width:650px;
+  margin:0;
+  color:#bdbdbd;
+  font-family:"Source Serif 4",Georgia,serif;
+  font-size:.88rem;
+  font-style:italic;
+  line-height:1.6;
+  text-align:right;
+}
+@media(max-width:980px){
+  .home-page .footer-grid{
+    grid-template-columns:repeat(2,minmax(0,1fr));
+    gap:2.5rem 2rem;
+  }
+  .home-page .footer-brand{grid-column:1 / -1;max-width:680px}
+  .home-page .footer-support .donate-buttons{flex-direction:row;flex-wrap:wrap}
+  .home-page .footer-support .donate-button{width:auto;flex:1 1 145px}
+}
+@media(max-width:600px){
+  .home-page .site-footer{padding:2.7rem 1.25rem 1.35rem}
+  .footer-topline{
+    flex-wrap:wrap;
+    gap:.55rem .8rem;
+    margin-bottom:2rem;
+    font-size:.6rem;
+    letter-spacing:.13em;
+  }
+  .footer-topline-rule{width:38px}
+  .home-page .footer-grid{
+    grid-template-columns:1fr;
+    gap:2rem;
+    padding-bottom:2rem;
+  }
+  .home-page .footer-brand{
+    grid-column:auto;
+    max-width:none;
+    text-align:center;
+  }
+  .home-page .footer-brand h3{text-align:center}
+  .home-page .footer-brand .footer-book-subtitle,
+  .home-page .footer-brand .footer-author,
+  .home-page .footer-brand .footer-description{text-align:center}
+  .home-page .footer-column h4{margin-bottom:.85rem}
+  .home-page .footer-column ul{gap:.65rem}
+  .home-page .footer-support .donate-buttons{flex-direction:column}
+  .home-page .footer-support .donate-button{width:100%}
+  .home-page .footer-disclaimer{padding:1.25rem 0;font-size:.78rem}
+  .home-page .footer-bottom{
+    flex-direction:column;
+    align-items:flex-start;
+    gap:.7rem;
+    padding-top:1rem;
+  }
+  .home-page .footer-bottom .footer-closing{text-align:left}
+}
