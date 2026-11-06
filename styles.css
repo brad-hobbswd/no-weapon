@@ -1207,3 +1207,129 @@ The Story Behind the Song That Still Carries the Church
   margin-right:auto;
   text-align:center;
 }
+
+
+/* Prologue page: shared NO WEAPON banner, navigation and editorial styling */
+.prologue-page .prologue-hero{
+  padding-top:clamp(1.25rem,3vw,2.5rem);
+  padding-bottom:2.75rem;
+}
+.prologue-page .prologue-heading{
+  width:min(900px,100%);
+  margin:2.2rem auto 0;
+  padding-bottom:1.25rem;
+  text-align:center;
+}
+.prologue-page .prologue-heading h1{
+  margin:.35rem 0 .55rem;
+  color:#f8f4ed;
+  font-size:clamp(2.5rem,6vw,4.8rem);
+  line-height:1.15;
+}
+.prologue-page .prologue-heading .hero-subtitle{
+  color:#e7cc92;
+  margin:.45rem auto;
+  font-family:"Cinzel",Georgia,serif;
+  letter-spacing:.12em;
+}
+.prologue-page .prologue-heading .hero-byline{
+  color:#d0c9bd;
+  margin:.3rem auto;
+}
+.prologue-page .prologue-content{
+  width:min(860px,88%);
+  margin:0 auto;
+  padding:3.25rem 0 3rem;
+}
+.prologue-page .prologue-content .section-intro{
+  width:100%;
+  margin:0 auto 2.5rem;
+  text-align:center;
+}
+.prologue-page .prologue-content .section-intro .chapter-label{
+  display:block;
+  width:100%;
+  max-width:none;
+  margin:0 auto .6rem;
+  text-align:center;
+}
+.prologue-page .prologue-content .section-intro h2{
+  margin:0 auto .75rem;
+  color:#e7cc92;
+  text-align:center;
+  font-size:clamp(2rem,4.5vw,3.1rem);
+}
+.prologue-page .prologue-book-title,
+.prologue-page .prologue-book-subtitle,
+.prologue-page .prologue-byline{
+  width:100%;
+  max-width:none;
+  margin:.3rem auto;
+  text-align:center;
+}
+.prologue-page .prologue-book-title{
+  color:#e7cc92;
+  font-family:"Cinzel",Georgia,serif;
+  letter-spacing:.12em;
+}
+.prologue-page .prologue-book-subtitle,
+.prologue-page .prologue-byline{
+  color:#bdbdbd;
+  font-size:.95rem;
+}
+.prologue-page .prologue-byline strong{color:#e7cc92}
+.prologue-page .prologue-content > p:not(.chapter-label){
+  max-width:70ch;
+  margin:0 auto 1.65rem;
+  color:#d0c9bd;
+  text-align:left;
+  line-height:1.9;
+}
+.prologue-page .prologue-content > blockquote{
+  width:min(700px,100%);
+  margin:2.5rem auto;
+  padding:1.1rem 1.6rem;
+  border-left:3px solid #d5b26b;
+  color:#e7cc92;
+  font-family:"Cinzel",Georgia,serif;
+  font-size:clamp(1.2rem,2.5vw,1.6rem);
+  line-height:1.7;
+  text-align:center;
+}
+.prologue-page .prologue-content .chapter-navigation{
+  margin:3rem auto 0;
+}
+.prologue-page .prologue-content .chapter-navigation .button{
+  min-width:190px;
+  border-radius:2px;
+  background:#1c1c1c;
+  color:#f8f4ed;
+  box-shadow:none;
+}
+.prologue-page .prologue-content .chapter-navigation .button:hover{
+  background:#303030;
+  color:#fff;
+}
+@media(max-width:600px){
+  .prologue-page .prologue-hero{
+    padding-top:1rem;
+    padding-bottom:2rem;
+  }
+  .prologue-page .prologue-heading{
+    margin-top:1.7rem;
+    padding-bottom:.75rem;
+  }
+  .prologue-page .prologue-heading h1{
+    font-size:2.2rem;
+  }
+  .prologue-page .prologue-content{
+    width:90%;
+    padding:2.5rem 0 2rem;
+  }
+  .prologue-page .prologue-content .chapter-navigation{
+    flex-direction:column;
+  }
+  .prologue-page .prologue-content .chapter-navigation .button{
+    width:100%;
+  }
+}
