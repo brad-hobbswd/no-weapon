@@ -1659,3 +1659,58 @@ body blockquote cite,
     margin-top:.8rem;
   }
 }
+
+
+/* Ensure the unified panel wins over earlier page-specific quote rules. */
+body.home-page.reading-page .chapter-content > blockquote,
+body.home-page.prologue-page .prologue-content > blockquote,
+body.home-page.author-page .author-content blockquote,
+body.home-page.contents-page blockquote,
+body.home-page:not(.reading-page):not(.prologue-page):not(.author-page):not(.contents-page) blockquote{
+  background:#fff;
+  border:0;
+  border-left:3px solid #d5b26b;
+  color:#24211c;
+  padding:1.35rem 1.55rem;
+  font-family:"Source Serif 4",Georgia,serif;
+  font-style:italic;
+  font-size:1.05rem;
+  font-weight:400;
+  line-height:1.85;
+  text-align:left;
+  box-shadow:none;
+}
+body.home-page.reading-page .chapter-content > blockquote p,
+body.home-page.prologue-page .prologue-content > blockquote p,
+body.home-page.author-page .author-content blockquote p,
+body.home-page.contents-page blockquote p{
+  color:#24211c;
+  font:inherit;
+  text-align:left;
+  margin:0 0 .8rem;
+}
+body.home-page.reading-page .chapter-content > blockquote cite,
+body.home-page.prologue-page .prologue-content > blockquote cite,
+body.home-page.author-page .author-content blockquote cite,
+body.home-page.contents-page blockquote cite,
+body.home-page blockquote cite{
+  display:block;
+  margin-top:1rem;
+  color:#38332b;
+  font-family:"Source Serif 4",Georgia,serif;
+  font-size:.98rem;
+  font-style:italic;
+  font-weight:400;
+  line-height:1.6;
+}
+@media(max-width:600px){
+  body.home-page.reading-page .chapter-content > blockquote,
+  body.home-page.prologue-page .prologue-content > blockquote,
+  body.home-page.author-page .author-content blockquote,
+  body.home-page.contents-page blockquote,
+  body.home-page:not(.reading-page):not(.prologue-page):not(.author-page):not(.contents-page) blockquote{
+    padding:1.05rem 1.1rem;
+    font-size:1rem;
+    line-height:1.75;
+  }
+}
