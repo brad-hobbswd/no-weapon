@@ -1333,3 +1333,19 @@ The Story Behind the Song That Still Carries the Church
     width:100%;
   }
 }
+
+/* About the Author page */
+.author-page .author-hero{padding-top:clamp(1.25rem,3vw,2.5rem);padding-bottom:3rem}
+.author-page .author-heading{width:min(900px,100%);margin:2.2rem auto 0;padding:0 0 1.5rem;text-align:center}
+.author-page .author-heading h1{color:#f8f4ed;font-size:clamp(2.6rem,6vw,4.7rem);margin:.3rem auto .6rem;line-height:1.15}
+.author-page .author-heading .hero-subtitle{color:#e7cc92;margin:.5rem auto}
+.author-page .author-heading .hero-byline{color:#d0c9bd;margin:.4rem auto}
+.author-page .author-content{width:min(860px,88%);margin:0 auto;padding:3rem 0}
+.author-page .author-content>p{max-width:70ch;margin:0 auto 1.7rem;color:#d0c9bd;text-align:left;line-height:1.85}
+.author-page .author-content .card{margin:2.3rem auto;padding:clamp(1.4rem,4vw,2.5rem);border:1px solid rgba(213,178,107,.24);border-top:3px solid #d5b26b;border-radius:3px;background:#141414}
+.author-page .author-content .card h2,.author-page .author-content .card h3{text-align:center;color:#e7cc92}
+.author-page .author-content .card p{margin:0 auto 1.3rem;color:#d0c9bd}
+.author-page .author-content blockquote{max-width:720px;margin:1.5rem auto;padding:1rem 1.5rem;border-left:3px solid #d5b26b;text-align:center}
+.author-page .author-content .chapter-navigation .button{min-width:190px;border-radius:2px;background:#1c1c1c;color:#f8f4ed;box-shadow:none}
+.author-page .author-content .chapter-navigation .button:hover{background:#303030}
+@media(max-width:600px){.author-page .author-hero{padding-top:1rem;padding-bottom:2.5rem}.author-page .author-heading{margin-top:1.7rem;padding-bottom:1rem}.author-page .author-heading h1{font-size:2.3rem}.author-page .author-content{width:90%;padding:2.5rem 0}.author-page .author-content .chapter-navigation .button{width:100%}}
