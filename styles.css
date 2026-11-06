@@ -1568,3 +1568,94 @@ The Story Behind the Song That Still Carries the Church
   background:#242424;
   border-color:#d5b26b;
 }
+
+
+/* =========================================================
+   UNIFIED QUOTATION PANEL — ALL PAGES
+   White editorial panel with antique-gold left rule
+========================================================= */
+body blockquote,
+.home-page blockquote,
+.contents-page blockquote,
+.prologue-page blockquote,
+.author-page blockquote,
+.reading-page blockquote{
+  box-sizing:border-box;
+  width:min(100%, 760px);
+  margin:2rem auto;
+  padding:1.35rem 1.55rem;
+  background:#ffffff;
+  border:0;
+  border-left:3px solid #d5b26b;
+  border-radius:0;
+  color:#24211c;
+  font-family:"Source Serif 4", Georgia, serif;
+  font-size:1.05rem;
+  font-style:italic;
+  font-weight:400;
+  line-height:1.85;
+  text-align:left;
+  box-shadow:none;
+}
+
+body blockquote p,
+.home-page blockquote p,
+.contents-page blockquote p,
+.prologue-page blockquote p,
+.author-page blockquote p,
+.reading-page blockquote p{
+  max-width:none;
+  margin:0 0 .8rem;
+  color:#24211c;
+  font:inherit;
+  line-height:inherit;
+  text-align:left;
+}
+
+body blockquote p:last-child,
+.home-page blockquote p:last-child,
+.contents-page blockquote p:last-child,
+.prologue-page blockquote p:last-child,
+.author-page blockquote p:last-child,
+.reading-page blockquote p:last-child{
+  margin-bottom:0;
+}
+
+body blockquote cite,
+.home-page blockquote cite,
+.contents-page blockquote cite,
+.prologue-page blockquote cite,
+.author-page blockquote cite,
+.reading-page blockquote cite{
+  display:block;
+  margin-top:1rem;
+  color:#38332b;
+  font-family:"Source Serif 4", Georgia, serif;
+  font-size:.98rem;
+  font-style:italic;
+  font-weight:400;
+  line-height:1.6;
+}
+
+@media(max-width:600px){
+  body blockquote,
+  .home-page blockquote,
+  .contents-page blockquote,
+  .prologue-page blockquote,
+  .author-page blockquote,
+  .reading-page blockquote{
+    width:100%;
+    margin:1.6rem auto;
+    padding:1.05rem 1.1rem;
+    font-size:1rem;
+    line-height:1.75;
+  }
+  body blockquote cite,
+  .home-page blockquote cite,
+  .contents-page blockquote cite,
+  .prologue-page blockquote cite,
+  .author-page blockquote cite,
+  .reading-page blockquote cite{
+    margin-top:.8rem;
+  }
+}
