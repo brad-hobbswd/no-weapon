@@ -1954,3 +1954,24 @@ body.home-page blockquote cite{
   }
   .home-page .footer-bottom .footer-closing{text-align:left}
 }
+
+
+/* Desktop banner: give the artwork more room and preserve its natural proportions */
+@media(min-width:901px){
+  .home-page .banner-frame{
+    width:min(1120px,calc(100vw - 160px));
+    max-width:1120px;
+    padding:14px;
+  }
+  .home-page .hero-banner{
+    width:100%;
+    height:auto;
+    max-height:none;
+    object-fit:contain;
+  }
+}
+@media(min-width:1400px){
+  .home-page .banner-frame{
+    width:min(1180px,calc(100vw - 200px));
+  }
+}
