@@ -1501,3 +1501,33 @@ The Story Behind the Song That Still Carries the Church
   }
   .reading-page .chapter-content .chapter-navigation .button{width:100%}
 }
+
+
+/* Homepage manuscript tiles are real, keyboard-accessible links */
+.home-page .work-list a{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:.75rem;
+  padding:.9rem 1rem;
+  color:#f8f4ed;
+  text-align:center;
+  background:#1c1c1c;
+  border:1px solid rgba(213,178,107,.2);
+  font-family:Arial,sans-serif;
+  font-size:.9rem;
+  text-decoration:none;
+  transition:background .2s ease,border-color .2s ease,transform .2s ease;
+}
+.home-page .work-list a span{
+  color:#e7cc92;
+  font-size:1.1rem;
+}
+.home-page .work-list a:hover,
+.home-page .work-list a:focus-visible{
+  color:#fff;
+  background:#242424;
+  border-color:#d5b26b;
+  transform:translateY(-2px);
+  outline:none;
+}
